@@ -1,0 +1,3 @@
+use("platzi_store")
+
+db.inventory.find({"item.code":"123",qty: {$gte:20, $lte:35}})
